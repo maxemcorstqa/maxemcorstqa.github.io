@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favi.png" type="image/png" />
+    <link href="./normalize.css" rel="stylesheet" />
+    <link href="./ios.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Привет!</title>
+
+    
+  </head>
+
+  <body>
+
+    <header class="header">
+      
+      <div class="hero-pic">
+        <img src="images/main_photo.jpg" alt="profile pic">
+      </div>      
+      
+      <!--
+      <img src="./avatar.png" alt="avatar" class="header__avatar" />
+      -->
+      <div class="header__textContainer">
+        <h1 class="header__title">Максим Лашин</h1>
+        <h3 class="header__subtitle">Привет, я <span class="input">тест</span></h3>
+        
+      </div>
+    </header>
+
+    <main>
+      <section class="links">
+        <h2 class="links__header">Обо мне</h2>
+        <ul class="links__container">
+          <li class="links__link">
+            <p class="links__title">Мой стек</p>
+            <a class="linsk__link" href="stack.html">Что я использую</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Прошлые <br>проекты</p>
+            <a class="linsk__link" href="projects.html">Где я был</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Хобби</p>
+            <a class="linsk__link" href="hobby.html">Чем занимаюсь</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Контакты</p>
+            <a class="linsk__link" href="contacts.html">Как связаться</a>
+          </li>
+          
+        </ul>
+      </section>
+      
+
+      
+            
+    </main>
+
+    <footer>
+      <button type="button" class="button-link" href="">
+        
+      <p class="button-text">Нашел как-то тестировщик баг... </p>
+      </button>
+    </footer>
+
+    <script type="text/javascript" src="js.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        
+
+        var typed=new Typed(".input",{
+            strings:["тестировщик","QA Engineer","тестировщик","QA Engineer","тестировщик","QA Engineer","тестировщик",],
+            typeSpeed:70,
+            backSpeed:55,
+            loop:true
+        });
+    </script>
+
+
+  </body>
+</html>
